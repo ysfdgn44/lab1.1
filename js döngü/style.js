@@ -106,13 +106,42 @@
 //   console.log(`${5 - i} hakkınız kaldı`);
 //   i++;
 // } while (i < 6);
-let say = Number(prompt("sayı giriniz"));
-const num = say;
-let counter = 0;
-// let num;
-while (say !== 0) {
-  say = Math.trunc(say / 10);
-  counter = counter + 1;
-  //   console.log(say);
+// let sayı = Number(prompt("sayı giriniz"));
+// const num = sayı;
+// let counter = 0;
+// let number;
+// while (sayı !== 0) {
+//   sayı = Math.trunc(say / 10);
+//   counter = counter + 1;
+//    console.log(sayı);
 }
-console.log(`${num} ${counter} basamaklıdır`);
+// console.log(`${num} ${counter} basamaklıdır`);
+// let grade = Number(prompt("your grade : "));
+// while (grade < 0 || grade > 100) {
+//   console.log(`grade should be 0-100`);
+//   grade = Number(prompt("your grade : "));
+// }
+// console.log(`your grade ${grade}`);
+// let vote;
+// do {
+//   let vise = Number(prompt("enter your vise scoor : "));
+//   let final = Number(prompt("enter your final scoor : "));
+//   avg = 0.4 * vise + 0.6 * final;
+//   console.log(`your avarega is ${avg}`);
+//   vote = prompt('would you want to new calculate. pleasa press "e" or "E"');
+// } while (vote === "e" || vote === "E");
+//  *****************************************
+//  ? NESTED FOR  *********!
+// ******************************************
+console.log("******NESTED FOR********");
+let result;
+let table = "";
+for (let row = 1; row <= 10; row++) {
+  for (let col = 1; col <= 10; col++) {
+    result = col * row;
+    table += result + "\t "; //!  \t bir tab lık boşluk bırakır
+  }
+  table += "\n"; //! \n her satırdan sonra enter lıyor
+}
+console.log(table);
+// console.log(result);
