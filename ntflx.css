@@ -1,90 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap');
-*{
-    padding: 0 ;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-#container{
-    max-width: 1240px;
-    height: auto;
-    background-color: rgba(0,0, 0, 0.3);
-    margin: auto;
-    margin-top: 30px;
-    padding: 1px;
-    /* margin-bottom: 10px; */
+#container {
+  max-width: 1240px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 30px;
+  padding: 1px;
+  /* margin-bottom: 10px; */
 }
-#title{
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 3.1rem;
-    color: white;
-    letter-spacing: 0.05em;
+#title {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 3.1rem;
+  color: white;
+  letter-spacing: 0.05em;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
 
-#description{
-    font-family: 'Sorts Mill Goudy', serif;
+#description {
+  font-family: "Sorts Mill Goudy", serif;
 }
-header{
-    color: white;
-    text-align: center;
+header {
+  color: white;
+  text-align: center;
 }
-body{
-    background-image: url(./netflix-background-image\ 1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* background-image:url(./netflix-background-image\ 1.png); */
+body {
+  background-image: url(./netflix-background-image\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background-image:url(./netflix-background-image\ 1.png); */
 }
-form{
-    font-size: 20px;
-    text-align: left;
-    border: 1px solid black;
-    width: 500px;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin: auto;
-    padding: 30px 40px;
-    color: white;
-    /* margin-bottom: 10px; */
+form {
+  font-size: 20px;
+  text-align: left;
+  border: 1px solid black;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  padding: 30px 40px;
+  color: white;
+  /* margin-bottom: 10px; */
 }
-label{
-    /* font-size: 20px; */
-    margin: 10px;
-    /* padding: 10px; */
-    margin-top: 10px;
+label {
+  /* font-size: 20px; */
+  margin: 10px;
+  /* padding: 10px; */
+  margin-top: 10px;
 }
 #name,
 #age,
 #email,
 #cont,
-#feedback{
- width: 100%;
- padding: 10px;
- margin-top: 10px;
+#feedback {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  /* border-radius: 1.5rem; */
 }
-.input-box{
-    /* border: 2px solid red; */
-    margin-top: 10px;
+.input-box {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  /* border-radius: 10px; */
+  /* border: 2px solid red; */
 }
-#checkbox, #radio{
-    margin-top: 40px;
+#checkbox,
+#radio {
+  margin-top: 40px;
 }
-#send{
-    width: 160px;
-    border-radius: 50px;
-    height: 45px ;
-    /* margin: auto; */
-    background-color: red;
-    color: white;
-    padding: auto;
-    text-align: center;
+#send {
+  width: 160px;
+  border-radius: 50px;
+  height: 45px;
+  /* margin: auto; */
+  background-color: red;
+  color: white;
+  padding: auto;
+  text-align: center;
 }
-#sub{
-    text-align: center;
-    /* margin: auto; */
-    padding-top: 10px;
+#sub {
+  text-align: center;
+  /* margin: auto; */
+  padding-top: 10px;
 }
